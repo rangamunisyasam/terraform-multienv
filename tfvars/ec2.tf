@@ -1,5 +1,5 @@
 resource "aws_instance" "example" {
-  ami           = "ami-0220d79f3f480ecf5"
+  ami           = "ami-0eec78ea4cbaaf5bd"
   instance_type = var.instance_type
   vpc_security_group_ids = [aws_security_group.allow_tls.id]
 
